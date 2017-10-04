@@ -1,5 +1,10 @@
 # Sublime text snippets
 
+## Content
+* [HTML](https://github.com/pBouillon/Sublime_text_snippets#html)
+* [JavaScript](https://github.com/pBouillon/Sublime_text_snippets#javascript)
+* [Python 3](https://github.com/pBouillon/Sublime_text_snippets#python-3)
+
 ## HTML
 
 ### HTML core
