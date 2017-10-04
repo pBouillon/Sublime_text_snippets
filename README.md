@@ -67,24 +67,6 @@ From `log` + `[tab]`
 console.log("this");
 ```
 
-## Vue.js
-
-### template
-From `template` + `[tab]`
-```html
-<template lang="html">
-
-</template>
-
-<script>
-export default {
-}
-</script>
-
-<style lang="css">
-</style>
-```
-
 ## Python 3
 
 ### Python 3 core
@@ -103,4 +85,4 @@ if __name__ == '__main__':
 
 # Contributions
 
-Feel free to contribute !
+Feel free to contribute ! 
