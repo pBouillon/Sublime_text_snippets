@@ -68,6 +68,8 @@ console.log("this");
 ```
 
 ## Python 3
+
+### Python 3 core
 From `p3` + `[tab]`
 ```python
 # !/usr/bin/env python3
