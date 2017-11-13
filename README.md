@@ -2,6 +2,7 @@
 
 ## Content
 * [HTML](#html)
+* [SQL](#sql)
 * [JavaScript](#javascript)
 * [Python 3](#python-3)
 
@@ -45,6 +46,28 @@ From `html` + `[tab]`
 ```
 
 
+## SQL
+
+### create
+From `create` + `[tab]`
+```sql
+<snippet>
+    <content><![CDATA[*
+/* ${1:table_name} */
+create table if not exists `${1:table_name}` (
+    `${1:table_name}_id`       int not null auto_increment,
+    `xxx`        varchar (400)   not null,
+    `yyy`         blob,
+    `zzz`          varchar (30)    not null,
+
+    constraint `PK_${1:table_name}` primary key (`${1:table_name}_id`)
+) ENGINE = InnoDB ;
+]]></content>
+    <tabTrigger>create</tabTrigger>
+    <scope>source.sql</scope>
+</snippet>
+
+```
 
 ## Javascript
 
