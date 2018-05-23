@@ -51,8 +51,6 @@ From `html` + `[tab]`
 ### create
 From `create` + `[tab]`
 ```sql
-<snippet>
-    <content><![CDATA[*
 /* ${1:table_name} */
 create table if not exists `${1:table_name}` (
     `${1:table_name}_id`       int not null auto_increment,
@@ -62,11 +60,6 @@ create table if not exists `${1:table_name}` (
 
     constraint `PK_${1:table_name}` primary key (`${1:table_name}_id`)
 ) ENGINE = InnoDB ;
-]]></content>
-    <tabTrigger>create</tabTrigger>
-    <scope>source.sql</scope>
-</snippet>
-
 ```
 
 ## Javascript
